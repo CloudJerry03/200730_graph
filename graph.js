@@ -1,11 +1,16 @@
 var left_is = document.getElementById("left");
-left_is.onclick = function() {
-    alter("짬뽕을 선택하셨습니다.")};
+left_is.addEventListener('click', function(){
+    alert("아아아아");
+});
     
-var left_bt= document.getElementById("left");
-left_bt.onclick = function() {
-    alert("left_click");};
+let left_bt= document.getElementById("left");
+left_bt.addEventListener('click', function(){
+    alert("아아아아");
+});
 
-var right_bt= document.getElementById("right");
-right_bt.onclick = function() {
-    alert("right_click");};
+
+let day = document.getElementById('day');
+day.addEventListener('click', function () {
+    document.querySelector('body').style.backgroundColor = 'white';
+    document.querySelector('body').style.color = 'black';
+});

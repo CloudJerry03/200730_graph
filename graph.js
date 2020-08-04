@@ -13,3 +13,7 @@ right_bt.addEventListener('click', function(){
     rightcount += 1;
     alert("짜장면 " + rightcount + "번 선택하였습니다.");
 });
+
+function draw_graph(){
+    
+}

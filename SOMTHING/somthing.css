@@ -1,0 +1,12 @@
+html,body{
+    margin: 0;
+    /*보이는 화면을 100으로 나누었을 때 100개를 의미
+    = 전체*/
+    height: 100vh;
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+    background-color: #A76034;
+}

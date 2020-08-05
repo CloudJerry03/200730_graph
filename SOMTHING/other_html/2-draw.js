@@ -5,6 +5,7 @@ let right = 20;
 let x_ptr = 25;
 
 sketchbook.addEventListener("click",function() {
+
     var canvas = document.getElementById('canvas');
     if (canvas.getContext) {
       var ctx = canvas.getContext('2d');

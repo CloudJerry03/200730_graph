@@ -20,8 +20,8 @@ right_bt.addEventListener('click', function(){
 
 //퍼센트로 바꾸기 위한 부분
 let sum = 0; //총합
-let left_per = 0; //왼쪽
-let right_per = 0; //오른쪽
+let left_per = 50; //왼쪽
+let right_per = 50; //오른쪽
 
 function result_view(){
     result_per();
@@ -36,8 +36,7 @@ function result_per(){
     right_per = right_per.toFixed();  
 }
 
-// 그림 그려지는 위치 x 좌표
-x_ptr = 25;
+
 // 그림 그리는 부분
 function draw() {
 
@@ -45,8 +44,7 @@ function draw() {
     
     if (canvas.getContext) {
       var ctx = canvas.getContext('2d');
-      ctx.fillRect(25, 25, left_per, 30);
-      ctx.strokeRect(left_per+x_ptr, 25, right_per, 30);
+      ctx.fillRect(0, 0, left_per*5, 30);
     }
 }
 

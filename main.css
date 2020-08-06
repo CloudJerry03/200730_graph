@@ -1,3 +1,20 @@
+@font-face { font-family: 'some'; 
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoPeacefullA.woff') 
+    format('woff'); 
+    font-weight: normal; 
+    font-style: normal; }
+
+/* top - 로고 및 subtitle */
+.top {text-align: center; margin-bottom: 5vh;}
+.top .subtitle { font-family: "some"; font-size: 3vh;}
+
+/* 중간 이미지 */
 .img_d{text-align: center;}
 
-canvas { border: 1px solid black; background-color: #73aedf;}
+
+/* 결과 출력부분 */
+#result {text-align: center;}
+.chart {
+    text-align: center;
+}
+canvas {background-color: #DC6B43;}

@@ -44,6 +44,8 @@ function draw() {
     
     if (canvas.getContext) {
       var ctx = canvas.getContext('2d');
+      //색 정하는 코드  
+      ctx.fillStyle = "#5798D5";
       ctx.fillRect(0, 0, left_per*5, 30);
     }
 }
